@@ -1,28 +1,28 @@
 class Viva < Formula
   desc "Build, package and live-reload Viva desktop applications"
   homepage "https://vivaui.dev"
-  version "0.2.4"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/vivaui/viva/releases/download/v0.2.4/viva_v0.2.4_darwin_arm64.tar.gz"
-      sha256 "9a2ed2cfa3accd0b50468d6c65810993e0457b1e4a3e4c8a9cf8e6a6afeb824b"
+      url "https://github.com/vivaui/viva/releases/download/v0.3.0/viva_v0.3.0_darwin_arm64.tar.gz"
+      sha256 "1ff51dff3498f4a8d8591364d7b354cd6b0237366325bde9f534dbbd91d6075d"
     end
     on_intel do
-      url "https://github.com/vivaui/viva/releases/download/v0.2.4/viva_v0.2.4_darwin_amd64.tar.gz"
-      sha256 "b1933720fa29ae01d0cec4a3d13586d5fb3bde3e8322ab628e00c28632a6bbb3"
+      url "https://github.com/vivaui/viva/releases/download/v0.3.0/viva_v0.3.0_darwin_amd64.tar.gz"
+      sha256 "2a35e667c34ef23979914d90afa6e9ef573b19169b61eec3410f9a404b285dd5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vivaui/viva/releases/download/v0.2.4/viva_v0.2.4_linux_arm64.tar.gz"
-      sha256 "696e630625b6922bbcf665a136c3267288828e1228a57137eb3e70baa0217faa"
+      url "https://github.com/vivaui/viva/releases/download/v0.3.0/viva_v0.3.0_linux_arm64.tar.gz"
+      sha256 "1cadee41952693a3fd4aad0729b858556d2d7d2bbbdeb2f7441556f397449290"
     end
     on_intel do
-      url "https://github.com/vivaui/viva/releases/download/v0.2.4/viva_v0.2.4_linux_amd64.tar.gz"
-      sha256 "6bcd5d364bcd083fc853904bd450e6b250190ce24af7a2baef7897bf1d2396b3"
+      url "https://github.com/vivaui/viva/releases/download/v0.3.0/viva_v0.3.0_linux_amd64.tar.gz"
+      sha256 "561f3f1c9b6e4d68aab24c47626bcf93bc776c4d5ea22aea5a0e04820cbaf929"
     end
   end
 
