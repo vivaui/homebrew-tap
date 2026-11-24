@@ -1,16 +1,16 @@
 {
-  "version": "0.6.7",
+  "version": "0.6.8",
   "description": "Build, package and live-reload Viva desktop applications",
   "homepage": "https://vivaui.dev",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/vivaui/viva/releases/download/v0.6.7/viva_v0.6.7_windows_amd64.zip",
-      "hash": "f8e81cb496c484d971a72d748b4abe07fd6ae05e32d3f27f91ed4adec970a00a"
+      "url": "https://github.com/vivaui/viva/releases/download/v0.6.8/viva_v0.6.8_windows_amd64.zip",
+      "hash": "e0e5c190230c170d7a716116892f30eca28013af86c31dd44d255f170d3a492e"
     },
     "arm64": {
-      "url": "https://github.com/vivaui/viva/releases/download/v0.6.7/viva_v0.6.7_windows_arm64.zip",
-      "hash": "ee11605a3b5f7885b2ace725e37e4f499919912fcbd6af894b039b896026ff8a"
+      "url": "https://github.com/vivaui/viva/releases/download/v0.6.8/viva_v0.6.8_windows_arm64.zip",
+      "hash": "a85324e100e14e513b31f8b045dd57e78e4e66f868e97d11eba984fb441684cc"
     }
   },
   "bin": "viva.exe",
